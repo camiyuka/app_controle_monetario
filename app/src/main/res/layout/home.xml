@@ -9,5 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="228dp"
         android:layout_height="48dp"
-        android:src="@drawable/logo_finanfacil" />
+        android:src="@drawable/logo_finanfacil"
+        android:contentDescription="@string/logo_description" />
 </LinearLayout>
+
