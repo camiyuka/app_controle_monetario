@@ -38,8 +38,8 @@
 
             <TextView
                 android:id="@+id/Saldo"
-                android:layout_width="167dp"
-                android:layout_height="42dp"
+                android:layout_width="284dp"
+                android:layout_height="44dp"
                 android:layout_weight="1"
                 android:text="Saldo"
                 android:textColor="#000000" />
