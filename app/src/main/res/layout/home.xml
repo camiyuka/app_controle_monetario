@@ -41,6 +41,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:text="Maio"
                 android:textAlignment="center"
                 android:textColor="#000000" />
@@ -84,23 +85,27 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="95dp"
+                        android:layout_width="109dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:maxWidth="10dp"
+                        android:minWidth="10dp"
                         android:padding="7dp"
                         android:src="@drawable/sifrao_verde" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Receita"
+                            android:layout_height="33dp"
+                            android:padding="5dp"
+                            android:text="Receitas"
+                            android:textAlignment="center"
                             android:textColor="#000000" />
 
                         <TextView
@@ -126,6 +131,8 @@
                         android:id="@+id/imageView8"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:maxWidth="10dp"
+                        android:minWidth="10dp"
                         android:padding="7dp"
                         android:src="@drawable/sifrao" />
 
@@ -137,8 +144,10 @@
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="35dp"
+                            android:padding="5dp"
                             android:text="Despesas"
+                            android:textAlignment="center"
                             android:textColor="#000000" />
 
                         <TextView
@@ -162,21 +171,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="vertical"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="109dp"
+        android:layout_height="118dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="match_parent"
+            android:layout_gravity="bottom|clip_vertical|start|right"
+            android:gravity="center_horizontal"
+            android:minWidth="10dp"
             android:orientation="vertical"
-            android:paddingStart="10dp"
-            android:gravity="center_horizontal">
+            android:paddingStart="10dp">
 
             <ImageButton
                 android:id="@+id/imageButton7"
@@ -191,6 +198,7 @@
                 android:id="@+id/Histórico"
                 android:layout_width="69dp"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Histórico"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -200,7 +208,9 @@
         <LinearLayout
             android:layout_width="102dp"
             android:layout_height="match_parent"
+            android:layout_gravity="bottom|clip_vertical|start|right"
             android:gravity="center_horizontal"
+            android:minWidth="10dp"
             android:orientation="vertical"
             android:paddingStart="10dp">
 
@@ -208,6 +218,7 @@
                 android:id="@+id/imageButton8"
                 android:layout_width="84dp"
                 android:layout_height="84dp"
+                android:layout_marginEnd="5dp"
                 android:background="@drawable/rounded_bg"
                 android:gravity="center_horizontal"
                 android:src="@drawable/Groupcategorias" />
@@ -216,6 +227,7 @@
                 android:id="@+id/Categorias"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Categorias"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -224,7 +236,9 @@
         <LinearLayout
             android:layout_width="101dp"
             android:layout_height="match_parent"
+            android:layout_gravity="bottom|clip_vertical|start|right"
             android:gravity="center_horizontal"
+            android:minWidth="10dp"
             android:orientation="vertical"
             android:paddingStart="10dp">
 
@@ -232,6 +246,7 @@
                 android:id="@+id/imageButton9"
                 android:layout_width="80dp"
                 android:layout_height="82dp"
+                android:layout_marginEnd="7dp"
                 android:background="@drawable/rounded_bg"
                 android:gravity="center_horizontal"
                 android:src="@drawable/adicionar" />
@@ -240,6 +255,7 @@
                 android:id="@+id/Registrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Registrar"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -247,8 +263,10 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:gravity="center_horizontal"
             android:layout_height="match_parent"
+            android:layout_gravity="bottom|clip_vertical|start|right"
+            android:gravity="center_horizontal"
+            android:minWidth="10dp"
             android:orientation="vertical">
 
             <ImageButton
@@ -263,6 +281,7 @@
                 android:id="@+id/Dashboard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Dashboard"
                 android:textColor="#000000"
                 android:textStyle="bold" />
@@ -272,15 +291,17 @@
 
     <TextView
         android:id="@+id/Despesas"
-        android:layout_width="395dp"
+        android:layout_width="362dp"
         android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:padding="5dp"
         android:text="Despesas por categoria"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="397dp"
+        android:layout_width="367dp"
         android:layout_height="191dp"
         android:background="@drawable/rounded_bg"
         android:orientation="horizontal"></LinearLayout>
